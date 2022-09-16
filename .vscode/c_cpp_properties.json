@@ -12,7 +12,9 @@
             ],
             "cStandard": "c17",
             "cppStandard": "c++17",
-            "intelliSenseMode": "windows-msvc-x64"
+            "intelliSenseMode": "windows-msvc-x64",
+            "compilerPath": "",
+            "compileCommands": ""
         }
     ],
     "version": 4

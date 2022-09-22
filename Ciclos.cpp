@@ -20,7 +20,7 @@ int main( int argc, char const *argv [])
         suma= suma + i;
     }
     printf("La suma de %d Numeros es %d: \n" , n, suma );
-    printf ("La suma de los numeros pares es %d: \n" , pares );
-    printf ("La suma de los numeros impares es %d: \n " , impares);
+    printf("La suma de los numeros pares es %d: \n" , pares );
+    printf("La suma de los numeros impares es %d: \n " , impares);
     return 0;
 }

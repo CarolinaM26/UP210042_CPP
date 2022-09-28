@@ -1,6 +1,6 @@
 /* 
     Objetivo: Imprimir el abecedario
-    Nombre:Carolina Magdiel Moran Requenes  ISC03A  28/09/2022
+    Nombre:Carolina Magdiel Moran Requenes  ISC03A  28/09/2022 <3
 */
 # include <iostream>
 using namespace std;

@@ -1,10 +1,80 @@
+<center>  Hola,  
+bienvenido a programación  
+</center>  
+
+# HOLIWIS
 # UP210042_CPP
 ## Hola Mundo Cruel
-git add
-git commit-m "Carolina Magdiel Moran Requenes"
+
+"Carolina Magdiel Moran Requenes"
 ![Imagen de Manos formando un corazón](https://scontent.fagu1-1.fna.fbcdn.net/v/t1.18169-9/16427230_757966497686475_2199017059822157899_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=19026a&_nc_ohc=m06e9DbNCD4AX_zZruc&tn=nWdFp2FATw-HzJ_s&_nc_ht=scontent.fagu1-1.fna&oh=00_AT_5nCyLbHcRPffk5aNtoDzxCmfjeM7gU4AN17y4prmbPQ&oe=6352EB34)
-## **Delirio**
+> Imagen de Manos formando un corazón  
+---
+# ***Delirio***
 ### Muerta estás querida rosa,
 ### tus ataduras me dejaron marcada,
 ### aquellos anhelos se han esfumado,
 ### tú y yo sabíamos que esto sería efímero...
+---
+Lista numerica
+
+1. que  
+1. hago  
+1. aqui  
+<ol>
+<li>Read</li>
+<li>write</li>
+<li>execute</li>
+</ol>  
+
+* primer elemento  
+* segundo elemento  
+- Tercer elemento  
+
+```
+#include <iostream>
+#include <iomanip>
+#include <string>
+using namespace std;
+
+int main ()  
+{  
+    int e=0;  
+    cout<<"Ingrese su edad: "<<endl;  
+    cin>>e;  
+    if(e>=0 && e<=150)  
+    {  
+        cout<<"¡Estas vivo! \n"<<endl;  
+        if(e<=30)  
+        {  
+            cout<<"1ra edad \n"<<endl;  
+        }  
+        else if(e>=31 && e<=60)  
+        {  
+            cout<<"2da edad \n"<<endl;  
+        }  
+        else if(e>=61 && e<=90)  
+        {  
+            cout<<"3ra edad \n"<<endl;  
+        }  
+        else   
+        {  
+            cout<<"Horas extras \n"<<endl;  
+        }  
+    }  
+    else  
+    {  
+        cout<<"DEAD LINE...\n"<<endl;  
+    }  
+    return 0;  
+}  
+```
+
+<div align="center">
+<img alt="XIAO" src="https://i.pinimg.com/originals/32/6d/3e/326d3ef3dbeac13a34e007dcaa934f45.jpg"width='500'/>
+
+## Tabla
+| Color | Codigo |  
+|-------|--------|
+| ROJO  |#FF0000 |
+| AZUL  |#0000FF |

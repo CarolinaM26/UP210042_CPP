@@ -3,6 +3,8 @@
     Nombre:Carolina Magdiel Moran Requenes  ISC03A  28/09/2022 
 */
 # include <iostream>
+#include <iomanip>
+# include <string>
 using namespace std;
 
 int main(int argc, char const *argv[])
@@ -21,6 +23,7 @@ int main(int argc, char const *argv[])
         cout <<letra << "\t";
         letra = letra + 1;
     }
+    numero=1;
     for(int i = 0; i < 10; i++)
     {
         cout <<numero << "\t";

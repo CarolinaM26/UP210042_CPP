@@ -38,6 +38,6 @@ int main()
         {
             renta= renta*0.45
         }
-    cout<<"Su renta anual sera de: " <<renta<< "Por lo que debe de pagar el dia...."<<endl;    
+    cout<<"Su renta anual sera de: " <<renta << "Por lo que debe de pagar el dia...."<< endl;    
     return 0;
 }

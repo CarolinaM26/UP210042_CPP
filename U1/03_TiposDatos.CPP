@@ -1,8 +1,8 @@
-* Unidad 1 Tipos de Datos
+/* Unidad 1 Tipos de Datos
     autor: Carolina Magdiel Moran Requenes
     Fecha: 15/09/2022
     Descripción: Muestra los diferentes tipo de datos en c++
-*
+*/
 
 //Libreria para manejo de entradas y salida de pantalla
 #Include <iostream>

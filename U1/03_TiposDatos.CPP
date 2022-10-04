@@ -24,10 +24,10 @@ int main()
     cout<<"El nuumero entero es: " << entero <<end;
     cout<<"El tamaño del entero es: "<<sizeof(entero)<< "bytes"<<endl;
     cout<<"El numero flotante es: "<<flotante<<endl;
-    get char();
     return 0;
 /*
     cout<<"El numero flotante es: "<<flotante<< endl;
     cout<<"El tamano del flotante es: " <<sizeof(flotante)<<"bytes"<<endl;
     cout<<"el tamno del double es: "<<sizeof(grande)   
+*/    
 }

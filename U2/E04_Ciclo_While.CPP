@@ -1,6 +1,7 @@
 //Objetivo: While mientras True
 
 #include <iostream>
+#include <stdio.h>
 using namespace std;
 int main() 
 {
@@ -13,7 +14,7 @@ int main()
         printf("Numero: ");
         scanf("%d", &n);
         //proceso
-        i=1;
+        i = 1;
         do
         {
             printf("%n X %d = %d \n", n, i, n*i);

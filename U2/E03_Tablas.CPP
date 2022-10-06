@@ -32,11 +32,20 @@ int main (int argc, char const *argv[] )
         cout<<n<<" x "<<e<<" = "<<r<<endl;
         e--;
     }
+    cout<<"\n";
     do
     {
         r=n*e;
         cout<<n<<" x "<<e<<" = "<<r<<endl;
         e++;
     }while(e<=10);
+    cout<<"\n";
+    e=10;
+    do
+    {
+        r=n*e; 
+        cout<<n<<" x "<<e<<" = "<<r<<endl;
+        e--;
+    }while(e>=1);
     return 0;
 }

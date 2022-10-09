@@ -13,7 +13,7 @@ int main(int argc, char const *argv[])
     int edad, entrada;
     cout<<"Ingresa tu edad"<<endl;
     cin>>edad;
-    if(edad<=4)
+    if(edad<4)
     {
         cout<<"Tu entrada es gratis, adelante! "<<endl;
     }

@@ -20,7 +20,7 @@ int main(int argc, char const *argv[])
     else if (puntaje==0.4)
     {
         cout<<"Puntuacion valida, siguiente paso..."<<endl;
-        cout<<"Su nivel de rendimiento es:"<<puntaje*100<<"%"<<" ACEPTABLE "<<endl;
+        cout<<"Su nivel de rendimiento es: "<<puntaje*100<<"%"<<" ACEPTABLE "<<endl;
         total=dineros*puntaje;
         cout<<"La cantidad de dinero a recibir es: "<<total<<endl;
     }

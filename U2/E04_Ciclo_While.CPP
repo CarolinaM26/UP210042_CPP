@@ -1,4 +1,5 @@
 //Objetivo: While mientras True
+//Nombre: Carolina Magdiel Moran Requenes       ISC03A      UP210042
 
 #include <iostream>
 #include <stdio.h>

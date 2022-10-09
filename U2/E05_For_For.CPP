@@ -1,4 +1,5 @@
 // Objetivo: For's anidados
+// Nombre: Carolina Magdiel Moran Requenes      ISC03A      UP210042
 //          TABLAS DEL 1 AL 10
 #include <iostream>
 using namespace std;

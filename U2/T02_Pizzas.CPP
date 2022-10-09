@@ -17,7 +17,7 @@ int main(int argc, char const *argv[])
     switch (opcion)
     {
     case 1: 
-        cout<<"Pizza vegetariana con...?\n Champiñones [1] Aceitunas [2] Jitomate [3] Pimiento [4] Exit [5]"<<endl;
+        cout<<"Pizza vegetariana con...?\n(La mozzarella y el tomate ya vienen incluidos)\n Champiñones [1] Aceitunas [2] Jitomate [3] Pimiento [4] Exit [5]"<<endl;
         cin>>vegetariana;
         switch(vegetariana)
         {
@@ -34,13 +34,13 @@ int main(int argc, char const *argv[])
                 cout<<"Pimiento "<<endl;
                 break;
             case 5:
-                cout<<"Sin ingredientes adicionales"<<endl;
+                cout<<" (Sin ingredientes adicionales) "<<endl;
                 break;
         }
         cout<<"Tu pizza "<< opcion <<"con los ingredientes "<< vegetariana <<"esta lista, disfruta! "<<endl;
         break;
     case 2: 
-        cout<<"Pizza tradicional con...?\n Salchicha [1] Salami [2] Tocino [3] Champiñones [4] exit [5] "<<endl;
+        cout<<"Pizza tradicional con...?\n(La mozzarella y el tomate ya vienen incluidos)\n Salchicha [1] Salami [2] Tocino [3] Champiñones [4] exit [5] "<<endl;
         cin>>tradicional;
         switch(tradicional)
         {
@@ -57,7 +57,7 @@ int main(int argc, char const *argv[])
                 cout<<"Champiñones "<<endl;
                 break;
             case 5:
-                cout<<"Sin ingredientes adicionales"<<endl;
+                cout<<" (Sin ingredientes adicionales) "<<endl;
                 break;
         }
         cout<<"Tu pizza "<< opcion <<"con los ingredientes "<< tradicional <<"esta lista, disfruta! "<<endl;

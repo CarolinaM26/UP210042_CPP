@@ -77,7 +77,7 @@ int main ()
 }
 ```
 ---
-# Muestra de ejercicio ***"Par Impar"***
+# Muestra de ejercicio 2 ***"Par Impar"***
 ```
 #include <iostream>
 using namespace std;
@@ -90,7 +90,7 @@ int main()
 }
 ```
 ---
-# Muestra de ejercicio ***"Tipos de datos"***
+# Muestra de ejercicio 3 ***"Tipos de datos"***
 ```
 //Libreria para manejo de entradas y salida de pantalla
 #include <iostream>
@@ -121,7 +121,7 @@ int main()
 }
 ```
 ---
-# Muestra de ejercicio ***"Ciclos"***
+# Muestra de ejercicio 4 ***"Ciclos"***
 ```
 #include <iostream>
 using namespace std;
@@ -151,7 +151,7 @@ int main( int argc, char const *argv [])
 }
 ```
 ---
-# Muestra de ejercicio ***"Edades"***
+# Muestra de ejercicio 5 ***"Edades"***
 ```
 #include <iostream>
 #include <iomanip>

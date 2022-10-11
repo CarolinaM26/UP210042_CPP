@@ -157,16 +157,19 @@ int main(int argc, char const *argv[])
     return 0;
 }
 ```
-
+---
 # Una pequeña descripción de cada uno de ellos:
-- Para el if; se le asigna una condición donde si se cumple dentro de los parámetros programados realiza la acción solicitada, pueden haber casos en los que se le incluya un "else if", a lo que vendría siendo que si no cumple los parámetros de la primera condición, irá a esta nueva.
-- Para For; Se tienen parámetros conocidos (hasta que punto se quiere llegar) y se realizan las opciones, puede ser muy conveniente pero se tiene que saber usar con cautela. :0
-- Para while; esta condición es muy característica por que ella te "pregunta" antes de realizar la acción programada.
-- Y para Do While; caso contrario a While, esta función realiza el programa antes de preguntarte.
-
+- Para el ***If***; se le asigna una condición donde si se cumple dentro de los parámetros programados realiza la acción solicitada, pueden haber casos en los que se le incluya un ***"else if"***, a lo que vendría siendo que si no cumple los parámetros de la primera condición, irá a esta nueva.
+- Para ***For***; Se tienen parámetros conocidos (hasta que punto se quiere llegar) y se realizan las opciones, puede ser muy conveniente pero se tiene que saber usar con cautela. :0
+- Para ***While***; esta condición es muy característica por que ella te "pregunta" antes de realizar la acción programada.
+- Y para ***Do While***; caso contrario a While, esta función realiza el programa antes de preguntarte.
+---
 <center>
 
 ![Imagen de saludo](https://i.pinimg.com/564x/69/ee/6b/69ee6ba1cf98f4111c10814614cd3eca.jpg)
+
+---
+
 ![imagen](https://i.pinimg.com/564x/6f/d0/89/6fd08936bdd537a6b5d5958df7c38412.jpg)
 
 </center>

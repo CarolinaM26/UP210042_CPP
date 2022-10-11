@@ -42,6 +42,116 @@ Lista numerica
 * segundo elemento  
 - Tercer elemento  
 
+
+<div align="center">
+<img alt="XIAO" src="https://i.pinimg.com/originals/32/6d/3e/326d3ef3dbeac13a34e007dcaa934f45.jpg"width='500'/>
+
+## Tabla
+| Color | Codigo |  
+|-------|--------|
+| ROJO  |#FF0000 |
+| AZUL  |#0000FF |
+
+`https://www.youtube.com/watch?v=XKvP1mj68GM`
+> [Debes verlo 7u7](https://www.youtube.com/watch?v=XKvP1mj68GM)    
+
+https://www.youtube.com/watch?v=XKvP1mj68GM
+
+<https://www.youtube.com/watch?v=XKvP1mj68GM>  
+Solo tu sabes   
+<a href="https://www.youtube.com/watch?v=XKvP1mj68GM">https://www.youtube.com/watch?v=XKvP1mj68GM</a>
+
+
+---
+# Muestra de ejercicio 1 ***"Hola Mundo"***  
+</div align="center">
+
+
+```
+#include  <iostream>
+using namespace std;
+int main ()
+{
+    cout<< "Hola Mundo"<<endl;
+    return 0;
+}
+```
+---
+# Muestra de ejercicio ***"Par Impar"***
+```
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout <<"Par o Impar" << endl<<"\n"<<endl;
+    system("pause");
+    return 0;
+}
+```
+---
+# Muestra de ejercicio ***"Tipos de datos"***
+```
+//Libreria para manejo de entradas y salida de pantalla
+#include <iostream>
+//libreria para el uso de printf y scanf
+#include <stdio.h>
+
+//Uso del namespace para evitar el std::
+using namespace std;
+
+//Funcion principal de tipo entero
+int main()
+{
+    int entero =21;
+    float flotante = 3.4e38;
+    double grande = 2.753275472;
+    char caracter = '@';
+
+    cout<<"Este programa muestra los tipos de datos, \n";
+    cout<<"El nuumero entero es: " << entero <<end;
+    cout<<"El tamaño del entero es: "<<sizeof(entero)<< "bytes"<<endl;
+    cout<<"El numero flotante es: "<<flotante<<endl;
+    return 0;
+/*
+    cout<<"El numero flotante es: "<<flotante<< endl;
+    cout<<"El tamano del flotante es: " <<sizeof(flotante)<<"bytes"<<endl;
+    cout<<"el tamno del double es: "<<sizeof(grande)   
+*/    
+}
+```
+---
+# Muestra de ejercicio ***"Ciclos"***
+```
+#include <iostream>
+using namespace std;
+
+int main( int argc, char const *argv [])
+{
+    int n = 10;
+    int suma = 0;
+    int pares = 0;
+    int impares = 0;
+    for(int i = 1; i <= n; i++)
+    {
+        if (i % 2 ==0)
+        {
+            pares= pares + i;
+        }
+        if ( i % 2 !=0)
+        {
+            impares= impares + i;
+        }
+        suma= suma + i;
+    }
+    printf("La suma de %d Numeros es %d: \n" , n, suma );
+    printf("La suma de los numeros pares es %d: \n" , pares );
+    printf("La suma de los numeros impares es %d: \n " , impares);
+    return 0;
+}
+```
+---
+# Muestra de ejercicio ***"Edades"***
 ```
 #include <iostream>
 #include <iomanip>
@@ -78,24 +188,5 @@ int main ()
         cout<<"DEAD LINE...\n"<<endl;  
     }  
     return 0;  
-}  
+} 
 ```
-![Holi](U1/Imagenes/gif-reverencia-3.gif "gif-reverencia-3")  
-
-<div align="center">
-<img alt="XIAO" src="https://i.pinimg.com/originals/32/6d/3e/326d3ef3dbeac13a34e007dcaa934f45.jpg"width='500'/>
-
-## Tabla
-| Color | Codigo |  
-|-------|--------|
-| ROJO  |#FF0000 |
-| AZUL  |#0000FF |
-
-`https://www.youtube.com/watch?v=XKvP1mj68GM`
-> [Debes verlo 7u7](https://www.youtube.com/watch?v=XKvP1mj68GM)    
-
-https://www.youtube.com/watch?v=XKvP1mj68GM
-
-<https://www.youtube.com/watch?v=XKvP1mj68GM>  
-Solo tu sabes   
-<a href="https://www.youtube.com/watch?v=XKvP1mj68GM">https://www.youtube.com/watch?v=XKvP1mj68GM</a>

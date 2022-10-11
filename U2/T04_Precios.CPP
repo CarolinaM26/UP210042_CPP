@@ -2,6 +2,7 @@
     Objetivo: que el programa lea indefinidamente cantidades de productos
     y su precio, y al final indique el total de la factura. Para saber que
     se ha terminado con la compra, se debera ingresar un 0 en la cantidad.
+    Nombre: Carolina Magdiel Moran Requenes         ISC03A          UP210042
 */
 #include <iostream>
 using namespace std;

@@ -19,9 +19,14 @@ bienvenido a programación
 </center>
 
 #### Para esta unidad se nos mostrarón distintos ejemplos y formas de utilizar los ciclos;
+
+<center>
+
 ![Imagen xd](https://i.pinimg.com/564x/5e/f4/25/5ef425d3082328b1e7d8768c2ca8f017.jpg)
 
-- Tenemos el ciclo if:
+</center>
+
+- Tenemos el ciclo if ***(Ejercicio Tramos)***:
 ```
 #include <iostream>
 #include <iomanip>
@@ -60,7 +65,7 @@ int main()
     }
 }
 ```
-- Tenemos el ciclo For:
+- Tenemos el ciclo For ***(Ejercicio ABC)***:
 ```
 # include <iostream>
 #include <iomanip>
@@ -98,7 +103,7 @@ int main(int argc, char const *argv[])
     return 0;
 }
 ```
-- Tenemos el ciclo while:
+- Tenemos el ciclo while ***(Ejercicio Ciclo While)***:
 ```
 #include <iostream>
 #include <stdio.h>
@@ -127,7 +132,7 @@ int main()
     return 0;
 }
 ```
-- Y tenemos el ciclo Do while:
+- Y tenemos el ciclo Do while ***(Ejercicio de Precio)***:
 ```
 #include <iostream>
 using namespace std;
@@ -159,5 +164,9 @@ int main(int argc, char const *argv[])
 - Para while; esta condición es muy característica por que ella te "pregunta" antes de realizar la acción programada.
 - Y para Do While; caso contrario a While, esta función realiza el programa antes de preguntarte.
 
+<center>
+
 ![Imagen de saludo](https://i.pinimg.com/564x/69/ee/6b/69ee6ba1cf98f4111c10814614cd3eca.jpg)
 ![imagen](https://i.pinimg.com/564x/6f/d0/89/6fd08936bdd537a6b5d5958df7c38412.jpg)
+
+</center>

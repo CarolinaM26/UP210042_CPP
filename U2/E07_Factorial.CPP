@@ -4,10 +4,10 @@ using namespace std;
 int main(int argc, char const *argv[])
 {
     int n=1;
-    int total=0;
+    int total=1;
     do
     {
-        total*=n;
+        total=total*n;
         n++;
     }while (n<=10);
     {

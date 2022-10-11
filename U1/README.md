@@ -5,12 +5,14 @@ bienvenido a programación
 
 <center>
 
-# Contenido U1  
+# Contenido U1 "Demostraciones de como usar read me, y uno que otro código utlizado en la unidad" 
 </center>
 
 <center>
 
+---
 # UP210042_CPP: Carolina Magdiel Moran Requenes  
+---
 ## Hola Mundo Cruel  
 
 </center>

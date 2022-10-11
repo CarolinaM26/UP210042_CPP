@@ -160,3 +160,4 @@ int main(int argc, char const *argv[])
 - Y para Do While; caso contrario a While, esta función realiza el programa antes de preguntarte.
 
 ![Imagen de saludo](https://i.pinimg.com/564x/69/ee/6b/69ee6ba1cf98f4111c10814614cd3eca.jpg)
+![imagen](https://i.pinimg.com/564x/6f/d0/89/6fd08936bdd537a6b5d5958df7c38412.jpg)

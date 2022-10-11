@@ -7,7 +7,8 @@ ___Carolina Magdiel Moran Requenes___
 </center>
 
 # Contenido:
-#### En este repositorio se verán algunas funciones de uso básico en un curso de programación. Haciendo uso de las funcions de la platafoma de GitHub.
+#### En este repositorio se verán algunas funciones de uso básico en un curso de programación. Haciendo uso de las funciones de la platafoma de GitHub.
+![Imagen](https://i.pinimg.com/564x/7a/55/dd/7a55dd40ce80737a70ada535e5c7d76d.jpg)
 <center>
 
 # ***He aqui una pequeña explicación de algunos de los comandos más utilizados:***

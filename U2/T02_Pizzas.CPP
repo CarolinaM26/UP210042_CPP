@@ -23,18 +23,21 @@ int main(int argc, char const *argv[])
         {
             case 1:
                 cout<<"Tofu "<<endl;
+                cout<<"Tu pizza Vegetariana con los ingredientes Tofu esta lista, disfruta!"<<endl;
                 break;
             case 2:
                 cout<<"Aceitunas "<<endl;
+                cout<<"Tu pizza Vegetariana con los ingredientes Aceitunas esta lista, disfruta!"<<endl;
                 break;
             case 3:
                 cout<<"Jitomate "<<endl;
+                cout<<"Tu pizza Vegetariana con los ingredientes Jitomate esta lista, disfruta!"<<endl;
                 break;
             case 4:
                 cout<<" (Sin ingredientes adicionales) "<<endl;
+                cout<<"Tu pizza Vegetariana sin ingredientes adicionales esta lista, disfruta! =)"<<endl;
                 break;
         }
-        cout<<"Tu pizza "<< opcion <<"con los ingredientes "<< vegetariana <<"esta lista, disfruta! "<<endl;
         break;
     case 2: 
         cout<<"Pizza tradicional con...?\n(La mozzarella y el tomate ya vienen incluidos)\n Peperoni [1] Jamon [2] Tocino [3] Salmon [4] exit [5] "<<endl;
@@ -43,21 +46,25 @@ int main(int argc, char const *argv[])
         {
             case 1:
                 cout<<"Peperoni "<<endl;
+                cout<<"Tu pizza Tradicional con los ingredientes peperoni esta lista, disfruta! =)"<<endl;
                 break;
             case 2:
                 cout<<"Jamon "<<endl;
+                cout<<"Tu pizza Tradicional con los ingredientes jamon esta lista, disfruta! =)"<<endl;
                 break;
             case 3:
                 cout<<"Tocino "<<endl;
+                cout<<"Tu pizza Tradicional con los ingredientes tocino esta lista, disfruta! =)"<<endl;
                 break;
             case 4:
                 cout<<"Salmon "<<endl;
+                cout<<"Tu pizza Tradicional con los ingredientes salmon esta lista, disfruta! =)"<<endl;
                 break;
             case 5:
                 cout<<" (Sin ingredientes adicionales) "<<endl;
+                cout<<"Tu pizza Tradicional sin ingredientes adicionales esta lista, disfruta! =)"<<endl;
                 break;
         }
-        cout<<"Tu pizza "<< opcion <<"con los ingredientes "<< tradicional <<"esta lista, disfruta! "<<endl;
         break;
     case 3:
         exit(EXIT_SUCCESS);    

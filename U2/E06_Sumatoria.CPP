@@ -3,6 +3,11 @@
 #include <iostream>
 using namespace std;
 
+int sumatoria(int n){
+    int x=0;
+    x=total;
+    return x;
+}
 int main(int argc, char const *argv[])
 {
     int n=1;

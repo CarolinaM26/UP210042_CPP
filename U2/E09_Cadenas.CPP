@@ -51,7 +51,7 @@ int main(int argc, char const *argv[])
     i=0;
     while(texto[i] !='\0')
     {
-        texto[i]=toupper(texto[i]);
+        texto[i]=toupper(texto[i]);>>>>>>>Para cadenas tipo caracteres 
         cout<<texto[i]<<" ";
         i++;
     }

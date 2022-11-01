@@ -28,7 +28,7 @@ int main()
         else
         { x1=xm; }
         Er=abs(x2-x1);
-        i=i+1;
+        i++;
     }
     cout<<"i= "<< i <<"raiz= "<<xm<<endl;
     cout<<r<<endl;

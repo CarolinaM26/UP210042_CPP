@@ -14,24 +14,25 @@ using namespace std;
 
 int main()
 {
-    float renta;
-    float impuesto;
+    float renta=0;
+    float impuesto=0;
     cout<< "Ingrese el monto de renta anual: "<<endl;
     cin>>renta;
+    if(renta>=1)
     {
-        if(renta<=10,000)
+        if(renta<10000)
         {
             impuesto=5;
         }
-        else if(renta>=10,000 && renta<=20,000)
+        else if(renta>=10000 && renta<20000)
         {
             impuesto=15;
         }
-        else if(renta>=20,000 && renta<= 35,000)
+        else if(renta>=20000 && renta< 35000)
         {
             impuesto=20;
         }
-        else if(renta>=35,000 && renta<= 60,000)
+        else if(renta>=35000 && renta< 60000)
         {
             impuesto=30;
         }
@@ -39,7 +40,9 @@ int main()
         {
             impuesto=45;
         }
+    } else {
+        cout<<"vuelva a ingresar"<<endl;
+    }
     cout<<"Su renta anual sera de: " <<impuesto <<" % " << endl;    
     return 0;
-    }
 }

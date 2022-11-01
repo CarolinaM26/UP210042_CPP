@@ -65,6 +65,10 @@ int main()
     }
 }
 ```
+![imagen](https://i.pinimg.com/564x/5f/a4/10/5fa4106f73398379024451de68c165ed.jpg)
+#### Segundo intento
+![imagen](https://i.pinimg.com/originals/0a/c6/a7/0ac6a7704babd82ef26ba8ec29ad856e.jpg)
+
 - Tenemos el ciclo For ***(Ejercicio ABC)***:
 ```
 # include <iostream>

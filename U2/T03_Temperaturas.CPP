@@ -8,38 +8,35 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    int total;
-    float temperaturas[6];
-    int cajita=0;
-    float promedio=0;
-    int menor=9999, mayor=-9999;
-    cout<<"Ingresa los datos: "<<endl;
-    cin>>total;
-    if(total>=0&&total<=6)
+    int temperaturas, mayor, menor;
+    float cajita=0;
+    for (int i=1;i<=6;i++)
     {
-        for(int i=1;i<=total;i++)
-        {
-            cout<<"Ingresa la temperatura "<<i<<":";
-            cin>>temperaturas [i];
-            cajita+=temperaturas [i];
+            cout<<"Ingresa la temperatura "<<i<<":"<<endl;
+            cin>>temperaturas;
+            cajita+=temperaturas;
+        
+        if (i==1){
+            mayor=temperaturas;
+            menor=temperaturas;
         }
-        int i;
-        if (menor<=temperaturas [i])
+        else
+        { 
+          if (menor<temperaturas)
         {
-            menor=temperaturas [i];
+            menor=temperaturas;
         }
-        int i;
-        if (mayor>=temperaturas [i])
-        {
-            mayor=temperaturas [i];
+            else
+            {
+                if(mayor>temperaturas)
+            {
+                mayor=temperaturas;
+            }
+            }
         }
-        cout<<"El promedio de las temperaturas es: "<<promedio<< endl;
-        cout<<"El numero menor de las temperaturas es: "<<menor<< endl;
-        cout<<"El numero mayor de las temperaturas es: "<<mayor<< endl;
     }
-    else
-    {
-        cout<<"El numero de temperaturas ingresadas es excedente..."<<endl;
-    }
+    cout<<"El promedio de las temperaturas es: "<<cajita<< endl;
+    cout<<"El numero menor de las temperaturas es: "<<menor<< endl;
+    cout<<"El numero mayor de las temperaturas es: "<<mayor<< endl;
     return 0;
 }

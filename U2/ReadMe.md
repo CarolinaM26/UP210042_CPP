@@ -397,4 +397,74 @@ int main(int argc, char const *argv[])
  ![imagen](https://i.pinimg.com/originals/40/93/8c/40938ca67c3f3d5297eecdc04c3c83bc.jpg)
  - Precios :   
  ```
-  
+ /*
+    Objetivo: que el programa lea indefinidamente cantidades de productos
+    y su precio, y al final indique el total de la factura. Para saber que
+    se ha terminado con la compra, se debera ingresar un 0 en la cantidad.
+    Nombre: Carolina Magdiel Moran Requenes         ISC03A          UP210042
+*/
+#include <iostream>
+using namespace std;
+
+int main(int argc, char const *argv[])
+{
+    int producto;
+    float numeritos;
+    float sumativa=0;
+    do
+    {
+        cout<<"Producto:"<<endl;
+        cin>>producto;
+        if(producto!=0 && producto>0)
+        {
+            cout<<"Precio del producto:"<<endl;
+            cin>>numeritos;
+            sumativa+=numeritos;
+        }
+    } while (producto!=0);
+    cout<<"El total de su compra es: "<<sumativa<<endl;
+    return 0;
+}
+```
+- Pruebas :   
+![imagen](https://i.pinimg.com/originals/3c/93/6a/3c936a4b11c7a2d7e28ef72892212e40.jpg)
+### Segundo intento:
+![imagen](https://i.pinimg.com/originals/ad/42/a1/ad42a1ce8091fde9bb9aadb88556ca95.jpg)
+
+- Binario a Decimal :   
+```
+/*
+    Objetivo: Convertir de binario a decimal
+    Nombre: Carolina Magdiel Moran Requenes     ISC03A      UP210042
+*/
+#include <iostream>
+using namespace std;
+
+int main(int argc, char const *argv[])
+{
+    int binario, resultado, demas=0;
+    int digito[8];
+    cout<<"Introduce el numero en binario: "<<endl;
+    cin>>binario;
+    for(int i=0; i<8;i++)
+    {
+    digito[i]=binario%10;
+    binario/=10;
+    }
+    for(int i=7; i>=0;i--)
+    {
+        resultado=(demas*2)+digito[i];
+        demas=resultado;
+    }
+    cout<<"el numero en decimal es: "<<resultado<<endl;
+    return 0;
+}
+```
+- Pruebas :   
+![imagen](https://i.pinimg.com/originals/a7/45/ec/a745ec454239ce19fde79440729d6318.jpg)
+### Segundo intento :   
+![imagen](https://i.pinimg.com/originals/e8/3c/ec/e83cec235d0080005cadbc6b28a434be.jpg)
+
+### Estas son las demostraciones y las pruebas de los ejercicios que se encargaron en la clase
+## ¡Muchas gracias por su atención! =D
+![imagen](https://i.pinimg.com/originals/0e/cf/ea/0ecfea8d0e3f5f3db51fa1d1d916baa5.jpg)

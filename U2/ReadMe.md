@@ -28,6 +28,15 @@ bienvenido a programación
 
 - Tenemos el ciclo if ***(Ejercicio de tarea: Tramos)***:
 ```
+/*
+    Objetivo: Escribir un programa que pregunte al usuario su renta anual y muestre por pantalla que le corresponde
+    renta                   Impuesto                Nombre:Carolina Magdiel Moran Requenes  ISC03A  27/09/2022
+    menos de $10,000        [5%]
+    entre $10,000 y $20,000 [15%]
+    entre $20,000 y $35,000 [20%]
+    entre $35,000 y $60,000 [30%]
+    Mas de $60,000          [45%]
+*/
 #include <iostream>
 #include <iomanip>
 #include <string>
@@ -35,24 +44,25 @@ using namespace std;
 
 int main()
 {
-    float renta;
-    float impuesto;
+    float renta=0;
+    float impuesto=0;
     cout<< "Ingrese el monto de renta anual: "<<endl;
     cin>>renta;
+    if(renta>=1)
     {
-        if(renta<=10,000)
+        if(renta<10000)
         {
             impuesto=5;
         }
-        else if(renta>=10,000 && renta<=20,000)
+        else if(renta>=10000 && renta<20000)
         {
             impuesto=15;
         }
-        else if(renta>=20,000 && renta<= 35,000)
+        else if(renta>=20000 && renta< 35000)
         {
             impuesto=20;
         }
-        else if(renta>=35,000 && renta<= 60,000)
+        else if(renta>=35000 && renta< 60000)
         {
             impuesto=30;
         }
@@ -60,9 +70,11 @@ int main()
         {
             impuesto=45;
         }
+    } else {
+        cout<<"vuelva a ingresar"<<endl;
+    }
     cout<<"Su renta anual sera de: " <<impuesto <<" % " << endl;    
     return 0;
-    }
 }
 ```
 ![imagen](https://i.pinimg.com/564x/5f/a4/10/5fa4106f73398379024451de68c165ed.jpg)

@@ -20,7 +20,7 @@ bool esBisiesto(int year){     //Programa año Bisiesto
     r= year%400==0||year%4==0&&year%100!=0;
     return r;
 }
-int main()
+int main()  //Pograma de prueba para cajerito
 {
     int pesitos, cantidad;
     cout<<"Ingresa la cantidad: "<<endl;

@@ -4,18 +4,18 @@ using namespace std;
 int fn_suma(int x, int y){
     return (x+y);
 }
-double G2R(double a){
+double G2R(double a){        //Grados a radianes
     double r;
     r=a*3.141559/180;
     return r;
 }
 
-double sin(double a){
+double sin(double a){       //Función Seno
     double r;
     r= sin(G2R(a));
     return r;
 }
-bool esBisiesto(int year){
+bool esBisiesto(int year){     //Programa año Bisiesto
     bool r=true;
     r= year%400==0||year%4==0&&year%100!=0;
     return r;

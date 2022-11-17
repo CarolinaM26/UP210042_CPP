@@ -42,9 +42,9 @@ int main(int argc, char const *argv[])
     }
     cout<<endl;
 
-    strcat(texto, "la mejor"); //concatenar
+    strcat(texto, "la mejor"); //concatenar//Nos puede servir para el RFC
     cout<<texto<<endl;
-    cout<< strchr(texto, '') <<endl;//extraer substring a partir del caracter
+    cout<< strchr(texto,' ') <<endl;//extraer substring a partir del caracter 
     cout<<"\n... Hecho!"<<endl;
     return 0;
 }

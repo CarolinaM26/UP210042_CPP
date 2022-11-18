@@ -1,3 +1,5 @@
+//Objetivo: Escribir un programa que realice bisecciones
+//Nombre: Carolina Magdiel Moran Requenes   ISC03A  UP210042
 #include <iostream>
 #include <cmath>
 using namespace std;

@@ -22,5 +22,6 @@ int main()
             expo=expo+2;
     }
     cout<<"El coseno del angulo es: "<<resultado<<endl;
+    cout<<"... HECHO!"<<endl;
     return 0;
 }

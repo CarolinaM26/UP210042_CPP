@@ -3,7 +3,7 @@
 #include "Libro.h"
 using namespace std;
 
-int cajerito()
+int main()
 {
     int pesitos, cantidad;
     cout<<"Ingresa la cantidad: "<<endl;

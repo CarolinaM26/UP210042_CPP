@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    cout<<esBisiesto(2022)<<endl;         //Programa de bisiesto  
+    cout<<esBisiesto(2012)<<endl;         //Programa de bisiesto  
     cout<<"\n... Hecho!"<<endl;
     return 0;
 }

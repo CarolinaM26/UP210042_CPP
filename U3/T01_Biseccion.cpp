@@ -12,8 +12,8 @@ double funEcuacion1(double x)
 
 int main()
 {
-    double x1=4;
-    double x2=7;
+    double x1=2;
+    double x2=8;
     double xm;
     double Es=.001; //el numero de ceros indica el numero de digitod //Error estandar
     double Er=abs(x2-x1); //error relativo//abs= valor absoluto

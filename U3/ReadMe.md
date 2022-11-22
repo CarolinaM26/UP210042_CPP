@@ -371,18 +371,48 @@ Proofs:
 
 - T07_RFC.CPP:
 ```
-
+//primer letra del segundo
+//primer ltra del primer nombre
+//year, month, day
+//3 caracteres aleatorios
+#include <iostream>
+#include <string.h>
+using namespace std;
+int main(){
+    string nombre,apellidop,apellidom,año,mes,dia,rfc;
+    cout<<"Introduce los datos solicitados a continuacion "<<endl;
+    cout<<"Ingresa tu nombre: "<<endl;
+    cin>>nombre;
+    cout<<"Ingresa tu apellido paterno: "<<endl;
+    cin>>apellidop;
+    cout<<"Ingresa tu apellido materno: "<<endl;
+    cin>>apellidom;
+    cout<<"Ingresa anio de nacimiento: "<<endl;
+    cin>>año;
+    cout<<"Ingresa mes de nacimiento: (Ejemplo:FEBRERO=02) "<<endl;
+    cin>>mes;
+    cout<<"Ingresa dia de nacimiento: "<<endl;
+    cin>>dia;
+    rfc=apellidop.substr(0,2);
+    rfc=rfc+apellidom.substr(0,1);
+    rfc=rfc+nombre.substr(0,1);
+    rfc=rfc+año;
+    rfc=rfc+mes;
+    rfc=rfc+dia; 
+    cout<<"El RFC es: ["<<rfc<<"]"<<endl;
+    return 0;
+}
 ```
 
 PROOFS:
 
 #1
 
-![IMAGEN]()
+![IMAGEN](https://i.pinimg.com/originals/f1/39/91/f139914684a57a51e48e830ba4c1cb02.jpg)
 
 #2
 
-![IMAGEN]()
+![IMAGEN](https://i.pinimg.com/originals/40/1c/07/401c072a27dea5b7be02ac665fde1859.jpg)
 
 - T08_ORDERV.CPP:
 ```
@@ -411,6 +441,8 @@ int main(){
     return 0;
 }
 ```
+
+Explanation: I saw many different kind of programs, but that I used include the Burble Method. The person that made the video said that this kind of method encompasses all data, and make the process inside of them. Collect the final information and show the results in ascending order to descending.
 
 PROOFS:
 
@@ -461,3 +493,11 @@ Proofs:
 #2:
 
 ![imagen](https://i.pinimg.com/originals/ed/5f/85/ed5f8572eca9837ba39bc6aac414dc7d.jpg)
+
+All of these kind of codes serve us on many different types of activities, like on these days, we have a lot of functions to do as a humans.
+
+I hope that some of these programs can be useful for me one day.
+
+ See you! :)
+
+ ![imagen](https://i.pinimg.com/564x/3a/2e/9e/3a2e9eb87201f97c77d32fc323862132.jpg)

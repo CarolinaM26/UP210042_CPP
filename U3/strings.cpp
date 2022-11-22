@@ -16,7 +16,7 @@ int main()//Metodo, el main recibe los parametros a ejecutar
     cout<<"find:        "<<texto.find(a)<<endl; //regresa la posicion 
     cout<<"substr:      "<<texto.substr(6,4)<<endl; //regresa un substring>>"traeme esa little porcion"
     cout<<"find_last:   "<<texto.find_last_of("i")<<endl;//regresa la posicion
-    cout<<"replace:     "<<texto.replace(6,5,"vih")<<endl;//reemplaza el numero de elementos que le indicas a partir de loa posicion indicada
+    cout<<"replace:     "<<texto.replace(6,5,"vih")<<endl;//reemplaza el numero de elementos que le indicas a partir de la posicion indicada
     texto=texto+".";
     cout<<"concatenar:  "<<texto<<endl;
     texto.clear();
